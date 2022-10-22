@@ -3,10 +3,10 @@ export const theme = {
     black: '#000',
     white: '#fff',
     text: '#2a2a2a',
-    background: 'gray',
+    background: '#fff',
     primary: '#07c',
     secondary: '#05a',
-    accent: 'tomato',
+    accent: '#609',
     muted: 'rgba(0, 0, 0, 0.6)',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
@@ -24,7 +24,7 @@ export const theme = {
   },
   fontWeights: {
     normal: 400,
-    semibold: 500,
+    semibold:500,
     bold: 700,
   },
   lineHeights: {
@@ -39,8 +39,8 @@ export const theme = {
     none: '0',
     normal: '4px',
     round: '50%',
-  },
+    },
   shadows: {
     card: 'rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px',
-  },
+  }
 };
