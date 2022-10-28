@@ -7,7 +7,7 @@ export const ContactList = ({contacts, onDeleteContact})=>{
             {contacts.map(({id, name, number}) => (
             <ContactListItem key={id}>
                 <p>{ `${name}: ${number}`}</p>
-                <ContactDeleteButton type="button"onClick={()=> onDeleteContact(id)}>Delete</ContactDeleteButton>
+                <ContactDeleteButton type="button" onClick={()=> onDeleteContact(id)}>Delete</ContactDeleteButton>
                 </ContactListItem>
             ))}
         </ul>
@@ -15,6 +15,7 @@ export const ContactList = ({contacts, onDeleteContact})=>{
 }
 
 ContactList.propTypes = {
+    onDeleteContact: PropTypes.func.isRequired,
     contacts: PropTypes.arrayOf(PropTypes.exact({
         id: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
