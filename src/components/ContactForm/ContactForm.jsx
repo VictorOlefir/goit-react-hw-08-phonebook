@@ -1,5 +1,6 @@
 import { useDispatch } from 'react-redux';
-import { addContact } from 'components/redux/contactsSlice';
+import { addContact } from 'redux/contactsSlice';
+
 import { Box } from 'components/Box';
 import { LabelInput, FormInput, SubmitButton } from './ContactForm.styled';
 

@@ -1,7 +1,7 @@
-
 import { useDispatch, useSelector } from 'react-redux';
-import { getContacts, getFilter } from '../redux/selectors';
-import { deleteContact } from 'components/redux/contactsSlice';
+import { getContacts, getFilter } from '../../redux/selectors';
+import { deleteContact } from 'redux/contactsSlice';
+
 import { ContactListItem, ContactDeleteButton } from './ContactList.styled';
 
 export const ContactList = () => {
@@ -35,4 +35,3 @@ export const ContactList = () => {
     </ul>
   );
 };
-
