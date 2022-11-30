@@ -9,7 +9,7 @@ export const theme = {
     accent: '#609',
     muted: 'rgba(0, 0, 0, 0.6)',
   },
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
+  space: [0, 2, 4, 8, 16, 32, 64, 128, 256,512],
   fonts: {
     body: 'system-ui, sans-serif',
     heading: 'system-ui, sans-serif',
