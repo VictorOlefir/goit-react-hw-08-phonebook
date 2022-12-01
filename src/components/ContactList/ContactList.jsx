@@ -1,12 +1,12 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Loader } from 'components/Loader/Loader';
-import { deleteContact } from 'components/redux/operations';
+import { deleteContact } from 'redux/operations';
 import { ContactListItem, ContactDeleteButton } from './ContactList.styled';
 import {
   selectIsLoading,
   selectError,
   selectVisibleContacts,
-} from 'components/redux/selectors';
+} from 'redux/selectors';
 
 export const ContactList = () => {
   const dispatch = useDispatch();
